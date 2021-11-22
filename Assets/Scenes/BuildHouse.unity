@@ -7821,12 +7821,12 @@ MonoBehaviour:
   - name: Floor Half
     prefab: {fileID: 4697738237177631099, guid: 9c7e7fd52bc7c304fa5866092b159efa, type: 3}
     type: 0
-    varian: 0
+    varian: 1
     sprite: {fileID: 21300000, guid: e6c0d1208fe728e4da9bd8cf2b3dc437, type: 3}
   - name: Floor Quarter
     prefab: {fileID: 8412462088343114371, guid: d648874e5525d2245bfa10dcf620e490, type: 3}
     type: 0
-    varian: 0
+    varian: 2
     sprite: {fileID: 21300000, guid: 49fdf95b4d534314ea46af156955de9d, type: 3}
   - name: Wall Full
     prefab: {fileID: 8321819060318717009, guid: 8ee09b97414d78b4ab15cdbc79a62669, type: 3}
