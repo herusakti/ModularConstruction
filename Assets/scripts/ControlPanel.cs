@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
@@ -120,7 +120,6 @@ public class ControlPanel : MonoBehaviour
         }
         listDesign = new List<ItemDesign>();
         int total_saved = PlayerPrefs.GetInt("total_saved", 0);
-        if (total_saved == 0) return;
         int n = 0;
         for(int i = total_saved-1; i>=0;i--)
         {
@@ -279,6 +278,9 @@ public class ControlPanel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
